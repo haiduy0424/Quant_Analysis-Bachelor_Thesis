@@ -11,7 +11,7 @@ Evaluation Score: Excellent (4.0/4.0)
 * Financial Risk Management
 * Advanced Econometrics Modelling
 * Portfolio Hedging
-* Statistic, Linear Algebra, R statitical Programming
+* Statistic, Linear Algebra, R Statitical Programming
 
 ## 3. Served Stakeholder
 
