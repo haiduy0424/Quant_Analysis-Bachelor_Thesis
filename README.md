@@ -33,7 +33,7 @@ Mar - June 2026
 
 ## 6. Process and Approach
 
-Input: Daily asset prices and monthly GEPU data (Oct 2016 – Dec 2025)  
+Input: Daily asset prices and monthly GEPU data (Oct 2016 – Dec 2025).  
 Output: Dynamic correlation estimates, time-varying hedge ratios, and hedging performance metrics.
 
 Methodology and process:
@@ -62,12 +62,12 @@ Methodology and process:
 ## 8. My Role
 
 * Project owner, Quantitative researcher & Engineer
-* Conducting 100% all tasks independently (Research design, data processing, R numerical optimization, econometric modelling, dynamic hedging analysis, and thesis manuscript).
+* Conducting 100% all tasks independently (Research design, data processing, R numerical optimization, econometric modelling, dynamic hedging analysis, and thesis manuscript)
 
 ## 9. Lessons Learned
 
-* **Econometric & Financial:** Advanced GARCH/DCC/MIDAS modeling, Quasi-Maximum Likelihood Estimation (QMLE), structural break testing, and dynamic portfolio backtesting.
-* **Engineering & Software:** Custom numerical optimization routines in R, end-to-end data pipelines, and robust statistical testing frameworks.
+* **Econometric & Financial:** Advanced GARCH/DCC/MIDAS modeling, Quasi-Maximum Likelihood Estimation (QMLE), structural break testing, and dynamic portfolio backtesting
+* **Engineering & Software:** Custom numerical optimization routines in R, end-to-end data pipelines, and robust statistical testing frameworks
 
 ## Prerequisites
 
