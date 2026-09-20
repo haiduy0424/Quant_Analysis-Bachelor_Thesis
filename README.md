@@ -67,8 +67,9 @@ Methodology and process:
 ## 9. Lessons Learned
 
 * **Econometric & Financial:** Advanced GARCH/DCC/MIDAS modeling, Quasi-Maximum Likelihood Estimation (QMLE), structural break testing, and dynamic portfolio backtesting
+* **Quantitative Logic & Paper Implementation**: Deconstructing complex mathematical equations from academic literature and translating them into production-ready, vectorized matrix algorithms
 * **Engineering & Software:** Custom numerical optimization routines in R, end-to-end data pipelines, and robust statistical testing frameworks
-
+  
 ## Prerequisites
 
 R 4.5.x
