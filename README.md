@@ -3,6 +3,7 @@
 ## 1. Project Name
 
 Bachelor Graduation Thesis - June 2026 - Foreign Trade University, HCMC Campus 
+
 Evaluation Score: Excellent (4.0/4.0)
 
 ## 2. Domain
@@ -15,6 +16,7 @@ Evaluation Score: Excellent (4.0/4.0)
 ## 3. Served Stakeholder
 
 Personal project for Bachelor Graduation
+
 Academic Supervisor: Le Trung Thanh, PhD - Foreign Trade University, HCMC Campus
 
 ## 4. Timeline
@@ -69,7 +71,7 @@ Process and Features:
 
 ## Prerequisites
 
-* R 4.5.x
+R 4.5.x
 
 ## Disclaimer
 
