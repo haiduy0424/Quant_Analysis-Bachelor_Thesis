@@ -2,84 +2,75 @@
 
 ## 1. Project Name
 
-* Bachelor Graduation Thesis - June 2026 - Foreign Trade University HCM (FTU2)
-
-* Evaluation Score: Excellent
+Bachelor Graduation Thesis - June 2026 - Foreign Trade University, HCMC Campus 
+Evaluation Score: Excellent (4.0/4.0)
 
 ## 2. Domain
 
-* Quantitative Finance
 * Financial Risk Management
-* Programming, Software Engineer
+* Advanced Econometrics Modelling
 * Portfolio Hedging
+* Statistic, Linear Algebra, R statitical Programming
 
 ## 3. Served Stakeholder
 
-Personal Bachelor Graduation Thesis Project
-
-Academic Supervisor: Lê Trung Thành, PhD
+Personal project for Bachelor Graduation
+Academic Supervisor: Le Trung Thanh, PhD - Foreign Trade University, HCMC Campus
 
 ## 4. Timeline
 
-Mar – Jun 2026
+Mar - June 2026
 
 ## 5. Scope of Work
 
-* Model Bitcoin volatility and dynamic correlations with: MSCI World, S&P GSCI, PIMCO Investment Grade Corporate Bond Index
-* Examine the effect of Global Economic Policy Uncertainty (GEPU).
-* Develop GARCH-MIDAS-X and DCC-MIDAS-X models with structural breaks.
-* Construct time-varying Optimal Hedge Ratios (OHR) for dynamic portfolio hedging and effective risk management.
-* Evaluate hedging effectiveness through in-sample, out-of-sample and transaction-cost tests.
+* Model Bitcoin volatility and dynamic correlations across 3 asset classes: MSCI World, S&P GSCI, and PIMCO Investment Grade Corporate Bond Index.
+* Examine the macro-financial impact of Global Economic Policy Uncertainty (GEPU).
+* Develop advanced GARCH-MIDAS-X and DCC-MIDAS-X models incorporating structural breaks.
+* Construct time-varying Optimal Hedge Ratios (OHR) for dynamic portfolio risk management.
+* Evaluate hedging performance through in-sample, out-of-sample, and transaction-cost stress testing.
 
 ## 6. Process and Approach
 
-Input: Daily asset prices and monthly GEPU data
-Sample: Oct 2016 – Dec 2025
+Input: Daily asset prices and monthly GEPU data (Oct 2016 – Dec 2025)  
+Output: Dynamic correlation estimates, time-varying hedge ratios, and hedging performance metrics.
 
-* Data Preparation: Process financial returns and GEPU data.
-* Structural Breaks: Apply Bai–Perron test to identify regime changes.
-* Volatility Modelling: Estimate short- and long-run volatility using GARCH-MIDAS-X.
-* Correlation Modelling: Estimate dynamic Bitcoin–asset correlations using DCC-MIDAS-X.
-* Dynamic Hedging: Generate time-varying hedge ratios and hedged portfolios.
-* Model Evaluation: Compare models using AIC, BIC, likelihood-ratio, Diebold–Mariano and Clark–West tests.
-* Robustness: Conduct rolling out-of-sample tests, alternative train-test splits and transaction-cost analysis.
+Process and Features:
+* **Data Preparation:** Process daily financial log returns and log-differenced GEPU policy shock series.
+* **Structural Breaks:** Apply Bai–Perron test to detect endogenous regime changes in policy uncertainty.
+* **Volatility Modelling:** Estimate short- and long-run volatility components using GARCH-MIDAS-X.
+* **Correlation Modelling:** Capture dynamic Bitcoin–asset joint distributions via regime-aware DCC-MIDAS-X.
+* **Dynamic Hedging:** Generate time-varying Optimal Hedge Ratios (OHR) and hedged portfolio returns.
+* **Model Evaluation:** Compare model selection and predictive superiority via AIC, BIC, Likelihood-Ratio, Diebold–Mariano, and Clark–West tests.
+* **Robustness Testing:** Conduct rolling out-of-sample backtests, alternative train-test splits, and transaction-cost analysis (up to 50 bps).
 
 ## 7. Outcome
 
-* Identified three GEPU structural breaks: May 2019, Jan 2021 and Jul 2024.
-* Bitcoin's relationship with traditional assets is asset-specific and regime-dependent.
-* Structural-break models consistently improve model fit.
-* Full DCC-MIDAS-X + Structural Break model achieves the highest hedging effectiveness:
-
-  * BTC–MSCI: 17.05%
-  * BTC–GSCI: 2.18%
-  * BTC–PIMCO: 3.03%
-* Forecasting improvements are statistically significant for BTC–MSCI and BTC–GSCI.
-* Results remain robust after transaction costs of up to 50 bps.
-* Bitcoin is better viewed as a conditional hedge/diversifier rather than a universal hedge.
+* Identified 3 significant GEPU structural break regimes: May 2019, Jan 2021, and Jul 2024.
+* Quantified Bitcoin's volatility dynamics across turbulent macro-financial regimes and mapped how its dynamic financial relationships with traditional assets evolve in response to specific macroeconomic events. 
+* Proved that Bitcoin's hedging relationship with traditional assets is strictly asset-specific and regime-dependent.
+* Structural-break models consistently superior in model fit and out-of-sample forecasting accuracy.
+* The full DCC-MIDAS-X + Structural Break model achieves the highest variance reduction in hedged portfolios:
+  * BTC – MSCI World: 17.05%
+  * BTC – S&P GSCI: 2.18%
+  * BTC – PIMCO Bond: 3.03%
+* Out-of-sample forecasting improvements are statistically significant for BTC–MSCI and BTC–GSCI pairs.
+* Hedging performance remains robust after accounting for market transaction costs up to 50 bps.
+* Demonstrates empirically that Bitcoin acts as a conditional hedge/diversifier rather than a universal safe haven.
 
 ## 8. My Role
 
-**Project Owner / Engineer / Quantitative Researcher**
-
-* Conducted 100% of project tasks independently.
-* Responsible for research design, data processing, R programming, econometric modelling, statistical testing, hedging analysis and academic writing.
+* Project owner, Quantitative researcher & Engineer
+* Conducting 100% all tasks independently (Research design, data processing, R numerical optimization, econometric modelling, dynamic hedging analysis, and thesis manuscript).
 
 ## 9. Lessons Learned
 
-* Advanced GARCH, MIDAS and DCC modelling
-* Quasi-Maximum Likelihood estimation
-* Numerical optimization in R
-* Structural-break analysis
-* Statistical inference and forecast testing
-* Dynamic portfolio hedging
-* Out-of-sample backtesting and robustness testing
+* **Econometric & Financial:** Advanced GARCH/DCC/MIDAS modeling, Quasi-Maximum Likelihood Estimation (QMLE), structural break testing, and dynamic portfolio backtesting.
+* **Engineering & Software:** Custom numerical optimization routines in R, end-to-end data pipelines, and robust statistical testing frameworks.
 
 ## Prerequisites
 
 * R 4.5.x
-* Statistics & Probability
-* Financial Econometrics
-* Time-Series Analysis
-* Portfolio Theory
-* Linear Algebra
+
+## Disclaimer
+
+This project is intended for educational purposes only.
