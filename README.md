@@ -36,7 +36,7 @@ Mar - June 2026
 Input: Daily asset prices and monthly GEPU data (Oct 2016 – Dec 2025)  
 Output: Dynamic correlation estimates, time-varying hedge ratios, and hedging performance metrics.
 
-Process and Features:
+Methodology and process:
 * **Data Preparation:** Process daily financial log returns and log-differenced GEPU policy shock series.
 * **Structural Breaks:** Apply Bai–Perron test to detect endogenous regime changes in policy uncertainty.
 * **Volatility Modelling:** Estimate short- and long-run volatility components using GARCH-MIDAS-X.
